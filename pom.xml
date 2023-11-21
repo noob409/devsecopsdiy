@@ -19,7 +19,7 @@
 
 	<properties>
     		<tomcat.version>10.1.14</tomcat.version>
-	<properties>
+	</properties>
 	
 	<dependencies>
 		<dependency>
