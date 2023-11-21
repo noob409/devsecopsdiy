@@ -33,6 +33,6 @@ jobs:
            name: Depcheck report
            path: ${{github.workspace}}/reports
       - name: Perform Scan
-      - uses: ShiftLeftSecurity/scan-action@master
+        uses: ShiftLeftSecurity/scan-action@master
         with:
           type: "credscan,java,depscan"
